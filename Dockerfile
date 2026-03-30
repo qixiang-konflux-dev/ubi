@@ -1,7 +1,3 @@
-FROM registry.access.redhat.com/ubi10-minimal:latest
-RUN find /etc/yum.repos.d/
-RUN microdnf install -y git
-RUN find /etc/yum.repos.d/
-RUN cat /etc/yum.repos.d/redhat.repo
+FROM registry.access.redhat.com/ubi10-minimal@sha256:28ec2f4662bdc4b0d4893ef0d8aebf36a5165dfb1d1dc9f46319bd8a03ed3365
 
 ENTRYPOINT ["/bin/sleep", "infinity"]

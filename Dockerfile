@@ -1,3 +1,3 @@
-FROM registry.access.redhat.com/ubi10-minimal@sha256:e9b2b981488c404fbf576865db2022ad8693bc9102421117a1eecd60ce8035f5
+FROM registry.access.redhat.com/ubi9-minimal@sha256:161a4e29ea482bab6048c2b36031b4f302ae81e4ff18b83e61785f40dc576f5d
 
 ENTRYPOINT ["/bin/sleep", "infinity"]
